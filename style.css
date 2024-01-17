@@ -25,6 +25,7 @@ form {
     display: flex;
     align-items: center;
     border-radius: 8px;
+    
 }
 
 form input {
