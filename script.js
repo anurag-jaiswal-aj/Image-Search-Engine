@@ -35,6 +35,7 @@ async function searchImages() {
     showMoreBtn.style.display = "block";
 }
 
+
 searchForm.addEventListener("submit", (e) => {
     e.preventDefault();
     page = 1;
