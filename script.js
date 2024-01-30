@@ -38,7 +38,6 @@ async function searchImages() {
     })
 
     showMoreBtn.style.display = "block";
-
 }
 
 
