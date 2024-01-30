@@ -20,7 +20,7 @@ async function searchImages() {
         searchResult.innerHTML = "";
     }
 
-    
+
     const results = data.results;
 
     results.map((result) => {
@@ -34,7 +34,6 @@ async function searchImages() {
     })
     showMoreBtn.style.display = "block";
 }
-
 
 searchForm.addEventListener("submit", (e) => {
     e.preventDefault();
