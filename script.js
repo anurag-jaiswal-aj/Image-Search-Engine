@@ -32,7 +32,6 @@ async function searchImages() {
         imageLink.href = result.links.html;
         imageLink.target = "_blank";
 
-
         imageLink.appendChild(image);
         searchResult.appendChild(imageLink);
     })
