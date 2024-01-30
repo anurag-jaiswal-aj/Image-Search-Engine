@@ -93,6 +93,7 @@ form button {
     }
 }
 
+
 @media (min-width: 900px) {
     #search-result {
         grid-template-columns: 1fr 1fr 1fr;
