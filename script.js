@@ -20,6 +20,7 @@ async function searchImages() {
         searchResult.innerHTML = "";
     }
 
+    
     const results = data.results;
 
     results.map((result) => {
